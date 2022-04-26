@@ -1,36 +1,46 @@
- ```python
-class WhoAmI:
-    def __init__(self):
-      username = 'Logic'
-      current_edu = 'HS Sophomore'
-      currently_learning = [
-      	'Javascript',
-         'Bootstrap'
-      ]
-      
-      current_knowledgeable = [
-      	'HTML'
-      	'CSS/SCSS'
-      	'Python'
-         'Figma'
-      ]
-      likes = [
-	      'Programming',
-	      'Astronomy',
-	      'Web Development',
-	      'Video Games',
-	      'Food'
-      ]
-      
-    def goals(self):
-		pursue_software_dev()
-		buy_a_telescope()
-		get_into_stanford()
-		
-my_socials = {
-    'Discord': 'Logic#5281',
-    'Github': 'You\'re already here',
-    'Twitter': 'https://twitter.com/L0gicalDude'
+```java
+public record L0raxeo()
+{
+
+    public String getUsername()
+    {
+        return "L0raxeo";
+    }
+
+    public String[] getEdu()
+    {
+        return new String[]{"International School of Brooklyn",
+                            "The Browning School",
+                            "College/University TBD..."};
+    }
+
+    public String[] getProgrammingLanguages()
+    {
+        return new String[]{"Java", "C#", "JS", "Brain Fuck", "C++"};
+    }
+
+    public String[] getPassions()
+    {
+        return new String[]{"Programming",
+                            "Politics",
+                            "Economics",
+                            "Finance",
+                            "Value Investing",
+                            "Literary and Film Plot Analysis",
+                            "Climate Change Solutionism (with economics & capitalism)",
+                            "Middle Class Solutionism (solving the weakening middle class)",
+                            "American Systemic History (economics, infrastructure... etc"};
+    }
+
+    public String[] getPetPeeves()
+    {
+        return new String[]{"Speculative Investing",
+                            "Cryptocurrency",
+                            "Family Guy",
+                            "California",
+                            "Florida"};
+    }
+
 }
-	
- ```
+
+```
